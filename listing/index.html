@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Vue.js Listing</title>
+    </head>
+    <body>
+        <div id="app">
+            <ol>
+                <li v-for="food in foods">
+                    {{ food.text }}
+                </li>
+            </ol>
+        </div>
+        
+        <!-- Pull in Vue.js -->
+        <script src="https://unpkg.com/vue"></script>
+        
+        <script src="./app.js"></script>
+    </body>
+</html>
