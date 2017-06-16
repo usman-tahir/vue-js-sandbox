@@ -10,6 +10,7 @@
   return new Vue({
     el: '#app',
     data: {
+      todoTitle: "Todos:",
       todoItems: [
         { id: 0, text: 'Laundry' },
         { id: 1, text: 'Dishes' },

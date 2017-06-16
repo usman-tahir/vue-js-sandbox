@@ -6,7 +6,7 @@
     </head>
     <body>
         <div id="app">
-            <p>Todos:</p>
+            <p>{{ todoTitle }}</p>
             <todo-item v-for="item in todoItems" v-bind:todo="item" v-bind:key="item.id"></todo-item>
         </div>
         
